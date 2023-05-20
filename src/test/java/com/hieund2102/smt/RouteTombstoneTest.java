@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class RouteTombstoneTest {
-    String topicPrefx = "tombstone-";
     private final RouteTombstone<SourceRecord> xform = new RouteTombstone();
 
 
